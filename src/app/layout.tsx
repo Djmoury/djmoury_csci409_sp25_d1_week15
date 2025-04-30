@@ -11,8 +11,14 @@ export const metadata = {
   <header style={{ padding: '1rem', backgroundColor: '#eee' }}>
   <h1>My Layout</h1>
   <nav>
-  <a href="/">Home</a> | <a href="/about">About</a> | <a href="/terms">Terms</a>
-  </nav>
+          <a href="/">Home</a> |{' '}
+          <a href="/route">Routes</a> |{' '}
+          <a href="/line">Lines</a> |{' '}
+          <a href="/vehicle">Vehicles</a> |{' '}
+          <a href="/alert">Alerts</a> |{' '}
+          <a href="/about">About</a> |{' '}
+          <a href="/terms">Terms</a>
+        </nav>
   </header>
   <main style={{ padding: '1rem' }}>{children}</main>
   <footer style={{ padding: '1rem', backgroundColor: '#eee' }}>
